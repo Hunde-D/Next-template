@@ -3,6 +3,7 @@
 This is a customizable Next.js starter template that works seamlessly with both `npm` and `pnpm`. Choose your preferred package manager and start building your project with ease.
 
 ## Features
+
 - ⚡️ Next.js 15 with App Router
 - ⚛️ React 19
 - 🧩 Shadcn/ui Components
@@ -12,6 +13,16 @@ This is a customizable Next.js starter template that works seamlessly with both 
 - 🎨 Lucide & React Icons
 - 📦 Support for npm and pnpm
 - 🧹 ESLint & Prettier
+
+---
+
+### 📝 Notes
+
+- 📦 This template includes both `package-lock.json` and `pnpm-lock.yaml` to support flexibility in your package manager choice.
+- ⚠️ **Choose only one lock file** based on your preferred package manager to avoid conflicts:
+  - 🟢 If you prefer **npm**, keep `package-lock.json` and **remove** `pnpm-lock.yaml`.
+  - 🔵 If you prefer **pnpm**, keep `pnpm-lock.yaml` and **remove** `package-lock.json`.
+- 🚨 Keeping both lock files can lead to issues during dependency installation. Ensure only one is retained.
 
 ---
 
@@ -31,7 +42,9 @@ cd your-app
 Choose your preferred package manager and follow the instructions below:
 
 #### For npm Users:
+
 1. **Install Dependencies**:
+
    ```bash
    npm install
    ```
@@ -42,7 +55,9 @@ Choose your preferred package manager and follow the instructions below:
    ```
 
 #### For pnpm Users:
+
 1. **Install Dependencies**:
+
    ```bash
    pnpm install
    ```
@@ -64,21 +79,12 @@ This will display your Next.js app running locally.
 
 ---
 
-## Notes
-
-- This template includes both `package-lock.json` and `pnpm-lock.yaml` files to provide flexibility.
-- **It is recommended to use only one of these files based on your preferred package manager.**
-- If you prefer npm, keep `package-lock.json` and delete `pnpm-lock.yaml`.
-- If you prefer pnpm, keep `pnpm-lock.yaml` and delete `package-lock.json`.
-- Ensure you only keep one lock file to avoid conflicts during dependency installation.
-
----
-
 ## Available Scripts
 
 The following scripts are available and work with both `npm` and `pnpm`:
 
 - **`dev`**: Start the development server.
+
   ```bash
   npm run dev
   # or
@@ -86,6 +92,7 @@ The following scripts are available and work with both `npm` and `pnpm`:
   ```
 
 - **`build`**: Build the project for production.
+
   ```bash
   npm run build
   # or
@@ -93,6 +100,7 @@ The following scripts are available and work with both `npm` and `pnpm`:
   ```
 
 - **`start`**: Start the production server.
+
   ```bash
   npm run start
   # or
@@ -115,4 +123,3 @@ Feel free to open an issue or submit a pull request if you find any issues or wa
 ---
 
 Happy coding! 🚀
-
