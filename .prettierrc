@@ -1,0 +1,13 @@
+{
+  "singleQuote": true,
+  "semicolons": true,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": false,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "endOfLine": "auto",
+  "tabWidth": 2,
+  "tailwindFunctions": ["cn", "clsx", "cva", "tw"],
+  "tailwindAttributes": ["myClassList"],
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
